@@ -1,10 +1,10 @@
 import { motion } from "motion/react";
 
 const stats = [
-  { k: "8+", v: "Years shipping mobile" },
-  { k: "20+", v: "Apps in production" },
-  { k: "4.8★", v: "Avg. store rating" },
-  { k: "12", v: "Countries collaborated" },
+  { k: "3", v: "Apps built end-to-end" },
+  { k: "8.5", v: "CGPA · B.Tech CSE" },
+  { k: "2x", v: "NPTEL topper" },
+  { k: "2026", v: "Graduating year" },
 ];
 
 const ease = [0.22, 1, 0.36, 1] as const;
@@ -24,20 +24,19 @@ export function About() {
             transition={{ duration: 0.9, ease }}
             className="font-display text-4xl md:text-6xl tracking-[-0.02em] leading-[1.02] text-balance"
           >
-            Engineering that disappears into the product.
+            A fresher who ships, not just <span className="italic text-secondary">studies.</span>
           </motion.h2>
         </div>
 
         <div className="md:col-span-6 md:col-start-7 space-y-6 text-muted-foreground text-base md:text-lg leading-relaxed">
           <p>
-            I'm a React Native specialist who treats motion, haptics and frame budget
-            as first-class citizens. Most of my recent work lives at the intersection
-            of native modules and pixel-perfect interface choreography.
+            I'm a final-year B.Tech Computer Science student at Galgotias University with
+            hands-on experience building cross-platform mobile apps in React Native and Expo.
           </p>
           <p>
-            I partner with founders and product teams from the first wireframe to App
-            Store release — and I stay through the boring parts: crash budgets,
-            release trains, store reviews.
+            I love the craft side of mobile — authentication flows, state management with
+            Zustand, polished animations with Reanimated, and dynamic data with modern
+            backends like Drizzle, Neon Postgres and Sanity CMS.
           </p>
 
           <div className="grid grid-cols-2 gap-6 pt-10">

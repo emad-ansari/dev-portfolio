@@ -25,7 +25,7 @@ export function Process() {
     <section id="process" className="px-6 md:px-10 py-28 md:py-40">
       <div className="mx-auto max-w-[1400px]">
         <p className="font-mono text-xs uppercase tracking-[0.2em] text-muted-foreground mb-6">
-          ⌘ 04 — How we'll work
+          ⌘ 06 — How we'll work
         </p>
         <h2 className="font-display text-4xl md:text-6xl tracking-[-0.02em] mb-16 md:mb-24 max-w-3xl text-balance">
           A simple process for <span className="italic text-secondary">serious</span> apps.

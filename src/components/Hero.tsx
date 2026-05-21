@@ -63,9 +63,10 @@ export function Hero() {
             transition={{ duration: 0.7, delay: 0.5, ease }}
             className="md:col-span-5 md:col-start-1 text-base md:text-lg text-muted-foreground max-w-md text-pretty"
           >
-            I'm a senior React Native engineer building precise, performant
-            iOS &amp; Android products for ambitious teams worldwide.
+            I'm <span className="text-foreground">Mohammad Emad</span> — a final-year CS student
+            and React Native developer building clean, performant cross-platform apps with Expo and TypeScript.
           </motion.p>
+
 
           <motion.div
             initial={{ opacity: 0, y: 16 }}
