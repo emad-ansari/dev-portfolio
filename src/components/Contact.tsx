@@ -21,7 +21,7 @@ export function Contact() {
 					transition={{ duration: 1, ease }}
 					className="font-display text-[14vw] md:text-[9vw] leading-[0.95] tracking-[-0.03em] text-balance"
 				>
-					Open to my first <br />
+					Open to Intern/<br />
 					<span className="italic text-primary-foreground/70">
 						full-time role.
 					</span>
