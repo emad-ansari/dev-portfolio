@@ -21,9 +21,9 @@ export function Contact() {
 					transition={{ duration: 1, ease }}
 					className="font-display text-[14vw] md:text-[9vw] leading-[0.95] tracking-[-0.03em] text-balance"
 				>
-					Open to Intern/<br />
+					Open to full-time role<br />
 					<span className="italic text-primary-foreground/70">
-						full-time role.
+						Or Intern
 					</span>
 				</motion.h2>
 
